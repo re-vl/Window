@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "gh-pages -d dist"
   },
   "author": "",
   "license": "ISC",
@@ -25,6 +25,8 @@
     "webpack-stream": "^5.2.1"
   },
   "dependencies": {
+    "homepage": "https://github.com/re-vl.io/window",
+    "gh-pages": "^3.2.3",
     "jquery": "^3.6.0",
     "slick-carousel": "^1.8.1"
   }
